@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="bgcolor">#3500ffff</color>
+	<color name="yangyaocolor">#7fff0000</color>
+	<color name="yinyaocolor">#7fffffff</color>
+</resources>

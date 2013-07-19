@@ -1,0 +1,83 @@
+#
+# An unexpected error has been detected by Java Runtime Environment:
+#
+#  Internal Error (classFileParser.cpp:2923), pid=4336, tid=1540
+#  Error: ShouldNotReachHere()
+#
+# Java VM: Java HotSpot(TM) Client VM (11.3-b02 mixed mode windows-x86)
+# If you would like to submit a bug report, please visit:
+#   http://java.sun.com/webapps/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x011f9000):  JavaThread "Unknown thread" [_thread_in_vm, id=1540, stack(0x003a0000,0x003f0000)]
+
+Stack: [0x003a0000,0x003f0000]
+[error occurred during error reporting (printing stack bounds), id 0xc0000005]
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x011f9000 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=1540, stack(0x003a0000,0x003f0000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Dynamic libraries:
+0x00400000 - 0x00424000 	D:\Program Files\MyEclipse\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\bin\javaw.exe
+0x77580000 - 0x776bc000 	C:\Windows\SYSTEM32\ntdll.dll
+0x76e30000 - 0x76f04000 	C:\Windows\system32\kernel32.dll
+0x75800000 - 0x7584a000 	C:\Windows\system32\KERNELBASE.dll
+0x774e0000 - 0x77580000 	C:\Windows\system32\ADVAPI32.dll
+0x76800000 - 0x768ac000 	C:\Windows\system32\msvcrt.dll
+0x776d0000 - 0x776e9000 	C:\Windows\SYSTEM32\sechost.dll
+0x76a40000 - 0x76ae1000 	C:\Windows\system32\RPCRT4.dll
+0x76720000 - 0x767e9000 	C:\Windows\system32\USER32.dll
+0x76690000 - 0x766de000 	C:\Windows\system32\GDI32.dll
+0x76680000 - 0x7668a000 	C:\Windows\system32\LPK.dll
+0x776f0000 - 0x7778d000 	C:\Windows\system32\USP10.dll
+0x77790000 - 0x777af000 	C:\Windows\system32\IMM32.DLL
+0x768b0000 - 0x7697c000 	C:\Windows\system32\MSCTF.dll
+0x7c340000 - 0x7c396000 	D:\Program Files\MyEclipse\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre\bin\msvcr71.dll
+0x6d8b0000 - 0x6db06000 	D:\Program Files\MyEclipse\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre\bin\client\jvm.dll
+0x73b10000 - 0x73b42000 	C:\Windows\system32\WINMM.dll
+0x75600000 - 0x7564b000 	C:\Windows\system32\apphelp.dll
+0x6d340000 - 0x6d348000 	D:\Program Files\MyEclipse\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre\bin\hpi.dll
+0x776c0000 - 0x776c5000 	C:\Windows\system32\PSAPI.DLL
+0x6d860000 - 0x6d86c000 	D:\Program Files\MyEclipse\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre\bin\verify.dll
+0x6d3e0000 - 0x6d3ff000 	D:\Program Files\MyEclipse\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre\bin\java.dll
+0x6d8a0000 - 0x6d8af000 	D:\Program Files\MyEclipse\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre\bin\zip.dll
+
+VM Arguments:
+jvm_args: -Dfile.encoding=GBK -Xbootclasspath:D:\Program Files\android-sdk-windows\platforms\android-8\android.jar 
+java_command: upc.iching.AppMain
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=D:\Program Files\MyEclipse\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013
+PATH=D:/Program Files/MyEclipse/Common/binary/com.sun.java.jdk.win32.x86_1.6.0.013/jre/bin/client;D:/Program Files/MyEclipse/Common/binary/com.sun.java.jdk.win32.x86_1.6.0.013/jre/bin;;D:\Program Files\Rational\Common;D:\Program Files\MyEclipse\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\bin;ATALINA_HOME\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Program Files\android-sdk-windows\tools;D:\Program Files\Rational\common;C:\Program Files\Common Files\Thunder Network\KanKan\Codecs
+USERNAME=fzd
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=x86 Family 6 Model 15 Stepping 13, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows NT 6.1 Build 7600 
+
+CPU:total 2 (2 cores per cpu, 1 threads per core) family 6 model 15 stepping 13, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3
+
+Memory: 4k page, physical 2096408k(989608k free), swap 4192816k(2562396k free)
+
+vm_info: Java HotSpot(TM) Client VM (11.3-b02) for windows-x86 JRE (1.6.0_13-b03), built on Mar  9 2009 01:15:24 by "java_re" with MS VC++ 7.1
+
+time: Thu Nov 04 22:43:27 2010
+elapsed time: 0 seconds
+
