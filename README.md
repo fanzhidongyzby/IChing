@@ -11,6 +11,13 @@ IChing
 
 MyEclipse+Android2.2
 
+截图
+-----------
+
+![](https://github.com/fanzhidongyzby/IChing/blob/master/printScr/%E5%85%B3%E9%94%AE%E6%88%AA%E5%B1%8F1-%E5%85%AB%E5%8D%A6%E8%A7%86%E5%9B%BE.png)
+![](https://github.com/fanzhidongyzby/IChing/blob/master/printScr/%E5%85%B3%E9%94%AE%E6%88%AA%E5%B1%8F3-%E5%8D%A6%E8%A7%A3%E6%9E%90%E8%A7%86%E5%9B%BE.png)
+![](https://github.com/fanzhidongyzby/IChing/blob/master/printScr/%E5%85%B3%E9%94%AE%E6%88%AA%E5%B1%8F2-%E5%85%AD%E5%8D%81%E5%9B%9B%E5%8D%A6%E8%A7%86%E5%9B%BE.png)
+
 详细说明
 -----------
 
